@@ -12,6 +12,8 @@
 		915A57DB2256E8E400EC0AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915A57D92256E8E400EC0AAD /* Main.storyboard */; };
 		915A57DD2256E8E500EC0AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915A57DC2256E8E500EC0AAD /* Assets.xcassets */; };
 		915A57E02256E8E500EC0AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915A57DE2256E8E500EC0AAD /* LaunchScreen.storyboard */; };
+		915A57E82256EA0000EC0AAD /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A57E72256EA0000EC0AAD /* SideBarTableViewController.swift */; };
+		915A57EA2256F1A300EC0AAD /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A57E92256F1A300EC0AAD /* MenuController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		915A57DC2256E8E500EC0AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		915A57DF2256E8E500EC0AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		915A57E12256E8E500EC0AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		915A57E72256EA0000EC0AAD /* SideBarTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		915A57E92256F1A300EC0AAD /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				915A57DC2256E8E500EC0AAD /* Assets.xcassets */,
 				915A57DE2256E8E500EC0AAD /* LaunchScreen.storyboard */,
 				915A57E12256E8E500EC0AAD /* Info.plist */,
+				915A57E72256EA0000EC0AAD /* SideBarTableViewController.swift */,
+				915A57E92256F1A300EC0AAD /* MenuController.swift */,
 			);
 			path = SideBarPOC;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				915A57EA2256F1A300EC0AAD /* MenuController.swift in Sources */,
 				915A57D82256E8E300EC0AAD /* ViewController.swift in Sources */,
+				915A57E82256EA0000EC0AAD /* SideBarTableViewController.swift in Sources */,
 				915A57D62256E8E300EC0AAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
